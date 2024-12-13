@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Imagina que estàs desenvolupant un sistema de gestió de productes per a una botiga online.  Se t'ha proporcionat una llista de productes amb la seva informació corresponent, i se't demana crear un arxiu XML que representi aquesta informació de manera estructurada. (2 punt)
+Assegura't d'incloure els següents detalls per a cada producte:
+- Codi únic del producte.
+- Nom del producte.
+- Descripció del producte.
+- Preu del producte.
+- Categoria del producte.
+- Disponibilitat del producte (en estoc o esgotat).
+- Imatge del producte (URL de la imatge).
+
+Crea un document XML que representi almenys 2 productes de la botiga online, assegurant-te de seguir les millors pràctiques d' estructura XML i d'utilitzar etiquetes i atributs apropiats. 
+El document ha de tenir:
+- mínim 10 etiquetes.
+- mínim 2 atributs.
+- mínim 3 nivells de profunditat.
+- comentaris a l’xml explicant l'estructura.
+
+Productes de la botiga online -->
+<botiga>
+	<!-- Producte 1 -->
+	<producte categoria="electronica">
+		<!-- Codi únic del producte -->
+		<codi_producte>001</codi_producte>
+		<nom_producte>Smartphone</nom_producte>
+		<descripcio>Smartphone de gamma mitjana amb pantalla de 6.5 polzades i 128GB de memòria interna.</descripcio>
+		<preu>300</preu>
+		<disponibilitat>En estoc</disponibilitat>
+		<imatge>https://www.superphonesanchez.com/smartphones/A95.webp</imatge>
+	</producte>
+	<!-- Producte 2 -->
+	<producte categoria="informatica">
+		<!-- Codi únic del producte -->
+		<codi_producte>002</codi_producte>
+		<nom_producte>Portàtil</nom_producte>
+		<descripcio>Portàtil de gamma alta amb pantalla de 15 polzades i 1TB de memòria interna.</descripcio>
+		<preu>1000</preu>
+		<disponibilitat>Esgotat</disponibilitat>
+		<imatge>https://www.superphonesanchez.com/portatils/MSI-GS66.webp</imatge>
+	</producte>
+	<!-- Producte 3 -->
+	<producte categoria="electronica">
+		<!-- Codi únic del producte -->
+		<codi_producte>003</codi_producte>
+		<nom_producte>Televisor</nom_producte>
+		<descripcio>Televisor de 55 polzades amb resolució 4K i HDR.</descripcio>
+		<preu>800</preu>
+		<disponibilitat>En estoc</disponibilitat>
+		<imatge>https://www.superphonesanchez.com/televisors/Samsung-55.webp</imatge>
+	</producte>
+	<!-- Producte 4 -->
+	<producte categoria="electronica">
+		<!-- Codi únic del producte -->
+		<codi_producte>004</codi_producte>
+		<nom_producte>Auriculars</nom_producte>
+		<descripcio>Auriculars inalàmbrics amb cancel·lació de soroll i autonomia de 20 hores.</descripcio>
+		<preu>150</preu>
+		<disponibilitat>En estoc</disponibilitat>
+		<imatge>https://www.superphonesanchez.com/auriculars/Sony-WH1000.webp</imatge>
+	</producte>
+</botiga>
+<!-- Alternativament podriem considerar l'us d'atributs per a la categoria del codi del producte, per exemple: <producte categoria="electronica" codi="001"> -->
