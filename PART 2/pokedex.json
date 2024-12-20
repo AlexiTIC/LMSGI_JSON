@@ -1,0 +1,77 @@
+{
+	"pokemons": [
+		{
+			"id": 1,
+			"nom": "Bulbasaur",
+			"tipus": [
+				"Planta",
+				"Verí"
+			],
+			"pes": "6.9 kg",
+			"alçada": "0.7 m",
+			"estadistiques": {
+				"velocitat": 45,
+				"força": 49,
+				"precisio": 65,
+				"resistencia": 49
+			},
+			"moviments": [
+				{
+					"nom": "Fulla Esmolada",
+					"descripcio": "Atac amb fulles tallants.",
+					"potencia": 55,
+					"contacte": true
+				},
+				{
+					"nom": "Fuetada",
+					"descripcio": "Atac amb fuet de fulles.",
+					"potencia": 35,
+					"contacte": true
+				}
+			],
+			"imatge": "https://www.wikidex.net/wiki/Archivo:Bulbasaur.png",
+			"evolucions": {
+				"nivells_requerits": {
+					"ivysaur": 16,
+					"venusaur": 32
+				}
+			}
+		},
+		{
+			"id": 4,
+			"nom": "Charmander",
+			"tipus": [
+				"Foc"
+			],
+			"pes": "8.5 kg",
+			"alçada": "0.6 m",
+			"estadistiques": {
+				"velocitat": 65,
+				"força": 52,
+				"precisio": 50,
+				"resistencia": 43
+			},
+			"moviments": [
+				{
+					"nom": "Flamarada",
+					"descripcio": "Emet foc de la boca.",
+					"potencia": 40,
+					"contacte": false
+				},
+				{
+					"nom": "Esgarrapada",
+					"descripcio": "Atac amb urpes esmolades.",
+					"potencia": 40,
+					"contacte": true
+				}
+			],
+			"imatge": "https://www.wikidex.net/wiki/Archivo:Charmander.png",
+			"evolucions": {
+				"nivells_requerits": {
+					"charmeleon": 16,
+					"charizard": 36
+				}
+			}
+		}
+	]
+}
