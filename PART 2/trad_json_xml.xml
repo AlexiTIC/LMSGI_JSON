@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- {
+	"basic_info":
+	{
+		"name": "Peter",
+		"surname": "Jones",
+		"age": 19,
+		"height": 1.78,
+		"job": "Informàtic",
+		"favorite_simile": "<3",
+		"pets": ["black cat", "chiwawa"],
+		"address":
+		{
+			"street": "Pau Claris",
+			"number": 121,
+			"cp": "08012"
+		}
+	},
+	"social_media":
+	{
+		"instagram":
+		{
+			"user": "pjones22",
+			"email": "pjones22@gmail.com"
+		},
+		"twitter": true
+	},
+	"friends":
+	[
+		{
+			"name": "Jhon",
+			"surname": "Doe",
+			"age": 35
+		},
+		{
+			"name": "Anna",
+			"surname": "Smith",
+			"age": null
+		}
+	]
+} -->
+
+<persona>
+	<informacio_basica>
+		<nom>Peter</nom>
+		<cognom>Jones</cognom>
+		<edat>19</edat>
+		<alcada>1.78</alcada>
+		<feina>Informatic</feina>
+		<emoticona_preferida>&lt;3</emoticona_preferida>
+		<mascotes>
+			<mascota>black cat</mascota>
+			<mascota>chiwawa</mascota>
+		</mascotes>
+		<adreca>
+			<carrer>Pau Claris</carrer>
+			<numero>121</numero>
+			<codi_postal>08012</codi_postal>
+		</adreca>
+	</informacio_basica>
+	<xarxes_socials>
+		<instagram>
+			<usuari>pjones22</usuari>
+			<correu>pjones22@gmail.com</correu>
+		</instagram>
+		<twitter>true</twitter>
+	</xarxes_socials>
+	<amics>
+		<amic>
+			<nom>Jhon</nom>
+			<cognom>Doe</cognom>
+			<edat>35</edat>
+		</amic>
+		<amic>
+			<nom>Anna</nom>
+			<cognom>Smith</cognom>
+			<edat>null</edat>
+		</amic>
+	</amics>
+</persona>
